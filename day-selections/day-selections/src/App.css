@@ -1,0 +1,59 @@
+form{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.active{
+  background-color: #aaa;
+}
+input{
+  display: block;
+  background-color: #ccc;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.addTask{
+  background-color: #ccc;
+  padding: 10px;
+  border-radius: 10px;
+}
+.desc{
+  width: 100%;
+}
+.box-1{
+  width: 50%;
+}
+.box-2{
+  width: 30%;
+}
+button{
+  width: 100%;
+  padding: 10px;
+}
+nav{
+  width: 600px;
+  margin: 20px 0;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+nav a{
+  background-color: #ccc;
+  text-decoration: none;
+  color: #000;
+  display: inline;
+  background-color: #ccc;
+  padding: 10px;
+}
+
+.taskBox{
+  background-color: #ccc;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+}
